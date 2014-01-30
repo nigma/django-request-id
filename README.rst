@@ -17,7 +17,7 @@ django-request-id
 Augments each request with unique ``request_id`` attribute and provides
 request id logging helpers.
 
-Developed and used at at `en.ig.ma software shop <http://en.ig.ma>`_.
+Developed and used at `en.ig.ma software shop <http://en.ig.ma>`_.
 
 
 Quickstart
@@ -127,7 +127,7 @@ Dependencies
 Documentation
 -------------
 
-The full documentation is at http://django-request-id.rtfd.org (TODO).
+The full documentation is at http://django-request-id.rtfd.org.
 
 There's also an instant demo example that can be run from the cloned repository::
 
