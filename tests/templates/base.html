@@ -1,0 +1,14 @@
+{% load request_id %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request Id test</title>
+</head>
+<body>
+<pre>
+request.request_id:       {{ request.request_id }}
+get_current_request_id(): {{ current_request_val }}
+{{ "{% request_id %}" }}:         {% request_id %}
+</pre>
+</body>
+</html>
