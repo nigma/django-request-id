@@ -10,7 +10,7 @@ def get_request_id(request):
     if hasattr(request, "request_id"):
         return request.request_id
     elif settings.REQUEST_ID_HEADER:
-        return request.META.get("HTTP_X_REQUEST_ID", "")
+        return request.META.get(settings.REQUEST_ID_HEADER, "")
     else:
         return generate_request_id()
 
