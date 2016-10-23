@@ -5,7 +5,7 @@ Web server configs
 Heroku
 ------
 
-If the X-Request-ID header is not passed automatically you may need to
+If the `X-Request-ID` header is not passed automatically you may need to
 enable it using the labs command:
 
 .. code-block:: bash
@@ -79,7 +79,7 @@ settings.
 Standalone
 ----------
 
-If you can't generate the X-Request-Id header at the web server level then
+If you can't generate the `X-Request-Id` header at the web server level then
 simply set ``REQUEST_ID_HEADER = None`` in your project settings and the
 app will generate a unique id value automatically instead of retrieving
 it from the wsgi environment.
