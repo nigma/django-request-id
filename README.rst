@@ -125,8 +125,8 @@ Dependencies
 
 None.
 
-Documentation
--------------
+Documentation and demo
+----------------------
 
 The full documentation is at http://django-request-id.rtfd.org.
 
@@ -134,12 +134,11 @@ There's also an instant demo example that can be run from the cloned repository:
 
     python demo.py
 
-Demo
-----
+See the integration in action on Heroku:
 
-See Heroku integration in action:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nigma/django-request-id)
+.. image:: https://www.herokucdn.com/deploy/button.svg
+   :alt: Deply
+   :target: https://heroku.com/deploy?template=https://github.com/nigma/django-request-id
 
 License
 -------
