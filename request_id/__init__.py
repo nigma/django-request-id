@@ -6,7 +6,7 @@ from uuid import uuid4
 
 from .local import Local, release_local  # NOQA
 
-__version__ = '0.2.0'
+__version__ = '1.0.0'
 
 default_app_config = 'request_id.apps.RequestIdConfig'
 
