@@ -15,9 +15,6 @@
     }
   },
   "addons": [
-    "papertrail",
-    {
-      "plan": "choklad"
-    }
+    "papertrail:choklad"
   ]
 }
