@@ -1,1 +1,4 @@
 django
+
+# Only for Heroku demo
+waitress
