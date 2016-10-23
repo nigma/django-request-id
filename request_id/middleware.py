@@ -3,14 +3,14 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 from . import generate_request_id, local, release_local
-from .conf import settings
+from .conf import REQUEST_ID_HEADER
 
 
 def get_request_id(request):
     if hasattr(request, 'request_id'):
         return request.request_id
-    elif settings.REQUEST_ID_HEADER:
-        return request.META.get(settings.REQUEST_ID_HEADER, '')
+    elif REQUEST_ID_HEADER:
+        return request.META.get(REQUEST_ID_HEADER, '')
     else:
         return generate_request_id()
 
