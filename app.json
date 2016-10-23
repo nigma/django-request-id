@@ -1,0 +1,23 @@
+{
+  "name": "Django Request Id app demo",
+  "description": "Demo integration of request-id header logging on Heroku",
+  "keywords": [
+    "django",
+    "request-id"
+  ],
+  "website": "https://github.com/nigma/django-request-id",
+  "repository": "https://github.com/nigma/django-request-id",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Free"
+    }
+  },
+  "addons": [
+    "papertrail",
+    {
+      "plan": "choklad"
+    }
+  ]
+}

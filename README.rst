@@ -134,6 +134,13 @@ There's also an instant demo example that can be run from the cloned repository:
 
     python demo.py
 
+Demo
+----
+
+See Heroku integration in action:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nigma/django-request-id)
+
 License
 -------
 
