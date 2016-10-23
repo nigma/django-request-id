@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 """
 Based on https://github.com/mitsuhiko/werkzeug/blob/master/werkzeug/local.py
@@ -9,8 +9,7 @@ https://github.com/mitsuhiko/werkzeug/blob/master/AUTHORS for more details.
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-__all__ = ["Local", "release_local"]
-
+__all__ = ['Local', 'release_local']
 
 try:
     from greenlet import getcurrent as get_ident
